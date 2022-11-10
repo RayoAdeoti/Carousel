@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Styling h1 tag */
+h1{
+    /* font-size: 30px; */
+    color: maroon;
+    /* font-weight: bolder; */
+}
+
+/* Styling p tag */
+p{
+    color: rgb(75, 7, 7);
+    font-weight: bolder;
+}
+
+/* Styling h3 tag */
+h3{
+    text-align: center;
+    color: rgba(185, 12, 12, 0.959);
+    /* font-weight: bolder; */
+}
+
+/* Slideshow container */
+.container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide image by default */
+.imageslide{
+    display: none;
+}
+
+/* Previous and next buttons */
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Next button should be at he right hand side */
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* When hovered on, add black bacground-color with see through */
+.prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.caption{
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number Caption */
+.image{
+    color: f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 1px;
+}
+
+/* Bullet indicator */
+.nav{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .nav:hover{
+    background-color: #717171;
+}
+
+/* Fading */
+.fade{
+    animation-name: fade;
+    animation-duration: 3.5s;
+}
+
+@keyframes fade{
+    from {opacity: .4}
+    to {opacity: 4}
+}
+
+
+
+@media (max-width:768px){
+
+    .container .img{
+        height:306px;
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hello! Welcome to my page.</h1>
+    <p>Take a quick walk through what I have been up to. I am going to hope that you would notice my progress. Thank you.</p>
+    <br>
+    <h3>My Weekly Progress</h3>
+    <br>
+    <div class="container">
+        <div class="imageslide fade">
+            <div class="image">1 / 6</div>
+            <img class="img" src="img/about.png" alt="" style="width:100%">
+            <div class="caption">My About Page</div>
+        </div>
+
+        <div class="imageslide fade">
+            <div class="image">2 / 6</div>
+            <img class="img" src="img/register.png" alt="" style="width:100%">
+            <div class="caption">A Register Page</div>
+        </div>
+
+        <div class="imageslide fade">
+            <div class="image">3 / 6</div>
+            <img class="img" src="img/success.png" alt="" style="width:100%">
+            <div class="caption">A Success Page</div>
+        </div>
+
+        <div class="imageslide fade">
+            <div class="image">4 / 6</div>
+            <img class="img" src="img/grid.png" alt="" style="width:100%">
+            <div class="caption">A Grid Layout Page</div>
+        </div>
+
+        <div class="imageslide fade">
+            <div class="image">5 / 6</div>
+            <img class="img" src="img/flex.png" alt="" style="width:100%">
+            <div class="caption">A Flex Layout Page</div>
+        </div>
+
+        <div class="imageslide fade">
+            <div class="image">6 / 6</div>
+            <img class="img" src="img/fillandget.png" alt="" style="width:100%">
+            <div class="caption">A Fill and Get Details Page</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="nav" onclick="currentSlide(1)"></span>
+        <span class="nav" onclick="currentSlide(2)"></span>
+        <span class="nav" onclick="currentSlide(3)"></span>
+        <span class="nav" onclick="currentSlide(4)"></span>
+        <span class="nav" onclick="currentSlide(5)"></span>
+        <span class="nav" onclick="currentSlide(6)"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
