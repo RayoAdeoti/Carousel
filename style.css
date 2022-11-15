@@ -15,6 +15,13 @@ p{
     font-weight: bolder;
 }
 
+/* Styling the a tag */
+a{
+    cursor: pointer;
+    color: rgb(75, 7, 7);
+    font-weight: bolder;
+}
+
 /* Styling h3 tag */
 h3{
     text-align: center;
