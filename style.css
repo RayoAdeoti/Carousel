@@ -17,9 +17,15 @@ p{
 
 /* Styling the a tag */
 a{
-    cursor: pointer;
     color: rgb(75, 7, 7);
     font-weight: bolder;
+}
+
+/* Styling the a tag when hovered on */
+a:hover{
+    cursor: pointer;
+    color: maroon;
+    text-decoration: none;
 }
 
 /* Styling h3 tag */
