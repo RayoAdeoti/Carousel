@@ -19,6 +19,7 @@ p{
 a{
     color: rgb(75, 7, 7);
     font-weight: bolder;
+    text-decoration: none;
 }
 
 /* Styling the a tag when hovered on */
